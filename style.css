@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.accordion-button{
+    background: #fd5;
+    border: 2px solid black;
+    border-radius: 8px 8px 0 0;
+}
+.accordion-button:focus {
+    background: #fd5;
+    color: black;
+    box-shadow: none;
+    border: 2px solid black;
+    border-radius: 8px 8px 0 0;
+}
+
